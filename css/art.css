@@ -1,0 +1,359 @@
+/* CSS compositions for portfolio cards (generated from Figma, scaled with container units) */
+.art {
+  position: absolute;
+  inset: 0;
+  --u: calc(100cqw / 357.333);
+  overflow: hidden;
+}
+.art * {
+  box-sizing: border-box;
+}
+.art-1 {
+  background: #8fd3c8;
+}
+.a1-box1 {
+  position: absolute;
+  left: calc(54.03 * var(--u));
+  top: calc(14.28 * var(--u));
+  width: calc(233.056 * var(--u));
+  height: calc(270.368 * var(--u));
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.a1-tag {
+  width: calc(141 * var(--u));
+  height: calc(231.24 * var(--u));
+  background: #eadfc9;
+  border: calc(2 * var(--u)) solid #cdbf9f;
+  transform: rotate(-28deg);
+  flex: none;
+}
+.a1-box2 {
+  position: absolute;
+  left: calc(129.58 * var(--u));
+  top: calc(89.68 * var(--u));
+  width: calc(81.942 * var(--u));
+  height: calc(119.568 * var(--u));
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.a1-text {
+  flex: none;
+  transform: rotate(62deg);
+  font-family: var(--font-heading);
+  font-weight: 400;
+  font-size: calc(19.74 * var(--u));
+  letter-spacing: calc(2 * var(--u));
+  text-transform: uppercase;
+  color: #4a433a;
+  white-space: nowrap;
+}
+.art-2 {
+  background: #ececec;
+}
+.a2-box {
+  position: absolute;
+  left: calc(26.9 * var(--u));
+  top: calc(29.13 * var(--u));
+  width: calc(303.54 * var(--u));
+  height: calc(223.746 * var(--u));
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.a2-text {
+  flex: none;
+  transform: rotate(-30deg);
+  font-family: var(--font-heading);
+  font-weight: 700;
+  font-size: calc(56.4 * var(--u));
+  letter-spacing: calc(2 * var(--u));
+  text-transform: uppercase;
+  color: #222;
+  white-space: nowrap;
+}
+.a2-accent {
+  color: var(--color-accent);
+}
+.art-3 {
+  background: #4c4c57;
+}
+.a3-disk {
+  position: absolute;
+  left: calc(164.57 * var(--u));
+  top: calc(84.6 * var(--u));
+  width: calc(112.8 * var(--u));
+  height: calc(112.8 * var(--u));
+  background: #e6e9ec;
+  border-radius: calc(56.4 * var(--u));
+}
+.a3-hole {
+  position: absolute;
+  left: calc(45.12 * var(--u));
+  top: calc(45.12 * var(--u));
+  width: calc(22.56 * var(--u));
+  height: calc(22.56 * var(--u));
+  background: #4c4c57;
+  border-radius: calc(11.28 * var(--u));
+}
+.a3-cover {
+  position: absolute;
+  left: calc(77.15 * var(--u));
+  top: calc(78.96 * var(--u));
+  width: calc(124.08 * var(--u));
+  height: calc(124.08 * var(--u));
+  background: #2b3236;
+  box-shadow: 0 calc(8 * var(--u)) calc(20 * var(--u)) rgba(0, 0, 0, 0.35);
+}
+.art-4 {
+  background: #a8957e;
+}
+.a4-box1 {
+  position: absolute;
+  left: calc(21.27 * var(--u));
+  top: calc(22.89 * var(--u));
+  width: calc(314.798 * var(--u));
+  height: calc(224.938 * var(--u));
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.a4-paper {
+  flex: none;
+  width: calc(285.867 * var(--u));
+  height: calc(169.2 * var(--u));
+  background: #c9b79c;
+  border-top: calc(3 * var(--u)) solid #8c6b4e;
+  transform: rotate(12deg);
+}
+.a4-box2 {
+  position: absolute;
+  left: calc(43.3 * var(--u));
+  top: calc(13.62 * var(--u));
+  width: calc(127.798 * var(--u));
+  height: calc(85.552 * var(--u));
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.a4-text {
+  flex: none;
+  transform: rotate(-14deg);
+  font-family: var(--font-heading);
+  font-weight: 400;
+  font-size: calc(39.48 * var(--u));
+  letter-spacing: calc(1.5 * var(--u));
+  text-transform: uppercase;
+  color: #b8332e;
+  white-space: nowrap;
+}
+.art-5 {
+  background: #1f2830;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: calc(10 * var(--u));
+}
+.a5-avatar {
+  position: relative;
+  flex: none;
+  width: calc(101.52 * var(--u));
+  height: calc(101.52 * var(--u));
+  background: #3e4c57;
+  border: calc(3 * var(--u)) solid rgba(255, 255, 255, 0.5);
+  border-radius: 50%;
+  overflow: hidden;
+}
+.a5-head {
+  position: absolute;
+  left: calc(28.02 * var(--u));
+  top: calc(19.56 * var(--u));
+  width: calc(39.48 * var(--u));
+  height: calc(39.48 * var(--u));
+  background: #6e7f8c;
+  border-radius: 50%;
+}
+.a5-body {
+  position: absolute;
+  left: calc(11.1 * var(--u));
+  top: calc(64.68 * var(--u));
+  width: calc(73.32 * var(--u));
+  height: calc(56.4 * var(--u));
+  background: #6e7f8c;
+  border-radius: calc(28.2 * var(--u));
+}
+.a5-name {
+  font-weight: 300;
+  font-size: calc(21.15 * var(--u));
+  color: #fff;
+  white-space: nowrap;
+}
+.a5-handle {
+  font-size: calc(14.1 * var(--u));
+  color: var(--color-teal);
+  white-space: nowrap;
+}
+.art-6 {
+  background: #e8a898;
+}
+.a6-box1 {
+  position: absolute;
+  left: calc(31.73 * var(--u));
+  top: calc(53.91 * var(--u));
+  width: calc(150.936 * var(--u));
+  height: calc(185.457 * var(--u));
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.a6-panel1 {
+  flex: none;
+  width: calc(128.64 * var(--u));
+  height: calc(169.2 * var(--u));
+  background: #f7f5f2;
+  transform: rotate(-8deg);
+}
+.a6-box2 {
+  position: absolute;
+  left: calc(153.33 * var(--u));
+  top: calc(24.22 * var(--u));
+  width: calc(172.168 * var(--u));
+  height: calc(188.44 * var(--u));
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.a6-panel2 {
+  flex: none;
+  width: calc(150.08 * var(--u));
+  height: calc(169.2 * var(--u));
+  background: #fff;
+  transform: rotate(-8deg);
+}
+.a6-box3 {
+  position: absolute;
+  left: calc(74.11 * var(--u));
+  top: calc(115.79 * var(--u));
+  width: calc(51.882 * var(--u));
+  height: calc(72.989 * var(--u));
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.a6-accent {
+  flex: none;
+  width: calc(42.88 * var(--u));
+  height: calc(67.68 * var(--u));
+  background: var(--color-teal);
+  transform: rotate(-8deg);
+}
+.art-7 {
+  background: #d9d6d1;
+}
+.a7-mark {
+  position: absolute;
+  left: calc(144.1 * var(--u));
+  top: calc(11.28 * var(--u));
+  width: calc(107.4 * var(--u));
+  height: calc(88.83 * var(--u));
+  background: var(--color-teal);
+  clip-path: polygon(50% 0, 100% 100%, 0 100%);
+}
+.a7-box {
+  position: absolute;
+  left: calc(60.88 * var(--u));
+  top: calc(145.37 * var(--u));
+  width: calc(199.834 * var(--u));
+  height: calc(115.343 * var(--u));
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.a7-text {
+  flex: none;
+  transform: rotate(14deg);
+  font-family: var(--font-serif);
+  font-weight: 700;
+  font-size: calc(56.4 * var(--u));
+  color: #3b3b3b;
+  white-space: nowrap;
+}
+.art-8 {
+  background: #f2b9be;
+}
+.a8-box1 {
+  position: absolute;
+  left: calc(0.52 * var(--u));
+  top: calc(-19.34 * var(--u));
+  width: calc(356.284 * var(--u));
+  height: calc(264.28 * var(--u));
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.a8-card {
+  flex: none;
+  width: calc(321.6 * var(--u));
+  height: calc(155.1 * var(--u));
+  background: #2f3134;
+  transform: rotate(22deg);
+}
+.a8-box2 {
+  position: absolute;
+  left: calc(87.74 * var(--u));
+  top: calc(55.59 * var(--u));
+  width: calc(124.682 * var(--u));
+  height: calc(103.131 * var(--u));
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.a8-text {
+  flex: none;
+  transform: rotate(22deg);
+  font-family: var(--font-heading);
+  font-weight: 400;
+  letter-spacing: calc(2 * var(--u));
+  text-transform: uppercase;
+  color: #fff;
+  white-space: nowrap;
+  line-height: calc(31.02 * var(--u));
+}
+.a8-name {
+  display: block;
+  font-size: calc(25.38 * var(--u));
+}
+.a8-sub {
+  display: block;
+  font-size: calc(14.1 * var(--u));
+  color: var(--color-accent);
+}
+.art-9 {
+  background: #3c495b;
+}
+.a9-box {
+  position: absolute;
+  left: calc(48.11 * var(--u));
+  top: calc(70.14 * var(--u));
+  width: calc(261.12 * var(--u));
+  height: calc(141.725 * var(--u));
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.a9-seal {
+  flex: none;
+  transform: rotate(-14deg);
+  border: calc(3 * var(--u)) solid rgba(255, 255, 255, 0.75);
+  padding: calc(14.1 * var(--u)) calc(22.56 * var(--u));
+  font-family: var(--font-heading);
+  font-weight: 700;
+  font-size: calc(33.84 * var(--u));
+  letter-spacing: calc(2 * var(--u));
+  text-transform: uppercase;
+  color: rgba(255, 255, 255, 0.8);
+  white-space: nowrap;
+}
